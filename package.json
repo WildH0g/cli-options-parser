@@ -1,7 +1,7 @@
 {
   "name": "cli-options-parser",
   "version": "1.0.0",
-  "description": "Parser command line options into an object. Uses `--key value1 -k value2` syntax.",
+  "description": "Parses command line options into an object. Uses `--key value1 -k value2` syntax.",
   "main": "dist/app.js",
   "scripts": {
     "test": "jest",
@@ -21,5 +21,13 @@
     "jest": "^29.3.1",
     "ts-jest": "^29.0.5"
   },
-  "type": "module"
+  "type": "module",
+  "homepage": "https://github.com/WildH0g/cli-options-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildH0g/cli-options-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WildH0g/cli-options-parser/issues"
+  }
 }

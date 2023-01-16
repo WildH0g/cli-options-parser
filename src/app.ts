@@ -42,5 +42,3 @@ export function argsToObj(..._: Array<string>): options {
 export default function cliToObject() {
   return argsToObj(...process.argv);
 }
-
-// TODO Finish bundling https://medium.com/swlh/how-to-create-and-publish-an-npm-package-17b5e1744f26

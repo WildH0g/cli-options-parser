@@ -21,13 +21,13 @@ export function argsToObj(..._) {
  * Reads the `process.argv` values and converts them into a key-value pairs object
  * @returns {options} A key-value pairs object
  * @example
+ * ```js
  * // app.js
  * // Your CLI file
  * import cliToObject from '../dist/app.js'
  * const v = cliToObject();
  * console.log(v);
- *
- * @example
+ * ```
  *
  * ```sh
  * # run from command line
@@ -38,4 +38,3 @@ export function argsToObj(..._) {
 export default function cliToObject() {
     return argsToObj(...process.argv);
 }
-// TODO Finish bundling https://medium.com/swlh/how-to-create-and-publish-an-npm-package-17b5e1744f26
